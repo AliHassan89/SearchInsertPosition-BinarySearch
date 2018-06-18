@@ -19,3 +19,13 @@ Given a sorted array and a target value, return the index if the target is found
 
  Input: [1,3,5,6], 0
  Output: 0
+
+# Solution:
+
+1. int array and target value is passed as argument in the function.
+
+2. Since array is sorted we run a binary search on the array and look for target in the sorted value 
+
+3. If the target is found then the index is returned.
+
+4. In case when target is not found then an index is returned whose value is one less than the value where target is suppose to be. On returning the index the index is incremented and returned.
